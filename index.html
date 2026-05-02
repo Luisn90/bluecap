@@ -216,6 +216,7 @@ footer{background:#060E1E;padding:40px 5vw 22px}
   display:flex;align-items:center;justify-content:center;flex-direction:column;
   animation:fu .7s .1s ease both;
   flex-shrink:0;
+  gap:0;
 }
 .hero-video-ring{
   width:560px;height:560px;
@@ -236,12 +237,13 @@ footer{background:#060E1E;padding:40px 5vw 22px}
 }
 /* badge on video */
 .vid-badge{
-  position:absolute;bottom:-22px;left:50%;transform:translateX(-50%);
+  display:inline-flex;align-items:center;gap:6px;
   background:var(--gold);color:var(--navy);
   font-family:var(--ff-h);font-size:17px;font-weight:900;
-  padding:7px 20px;border-radius:50px;
+  padding:9px 22px;border-radius:50px;
   text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;
   box-shadow:0 4px 16px rgba(245,184,0,.4);
+  margin-top:20px;
 }
 
 /* ── MODAL ── */
